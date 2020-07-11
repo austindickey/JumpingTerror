@@ -1,7 +1,7 @@
 {
   "name": "JumpingTerror",
   "version": "1.0.0",
-  "description": "Here you can find similar movies or tv shows to your favorites to watch next.",
+  "description": "This is a website for the the Twitch streamer JumpingTerror.",
   "main": "server.js",
   "dependencies": {
     "axios": "^0.19.2",

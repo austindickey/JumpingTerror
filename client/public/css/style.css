@@ -1,0 +1,159 @@
+/***************************************************************************************************************
+||||||||||||||||||||||||||             Created By: Austin Dickey                 |||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||               Table of Contents                 |||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. Body
+* 2. Login
+* 3. NavBar
+* 4. Home Page
+* 11. Footer
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End Table of Contents               ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+
+
+
+/* =================================
+            Body
+================================= */
+
+body {
+    background-image: url(../img/bg.png);
+    font-family: 'Dosis', sans-serif;
+}
+
+/* This hides the footer on longer pages until the user reaches the bottom of the page. */
+.contentHolder {
+    z-index: 1;
+    background-image: url(../img/bg.png);
+}
+
+/* =================================
+            NavBar
+================================= */
+
+.fa-bars {
+    color: #FFA500;
+    padding: 7px;
+    border: 2px solid #FFA500;
+    border-radius: 6px;
+}
+
+.navbar {
+    background-color: #505050;
+    color: #fff;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+    color: #FFA500;
+}
+
+.navbar-nav .active {
+    color: #FFA500;
+}
+
+.logo img {
+    padding: 5px 15px;
+    height: 75px;
+}
+
+.divider:after {
+    content: "|";
+    color: #fff;
+}
+
+#loggedInAs {
+    margin: auto 20px auto 0;
+}
+
+#loggedInAs span {
+    color: #FFA500;
+    font-weight: 500;
+}
+
+#logoutButton {
+    margin: auto 25px auto 0;
+}
+
+.loggedInFalse {
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+.loggedInTrue {
+    position: absolute; 
+    right: 0;
+}
+
+.redLine {
+    display: none;
+}
+
+/* =================================
+            Home Page
+================================= */
+
+/* #homeLogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#homeLogo img {
+    width: 25%;
+    height: 25%;
+    margin: 25px 0;
+} */
+
+#aboutMe {
+    background-image: url(../img/banner.png);
+    padding: 35px 50px;
+    text-align: center;
+    border: 5px solid #505050;
+    border-radius: 8px;
+    margin: 50px 0;
+}
+
+#dataFrom {
+    font-style: italic;
+    color: #FFA500;
+    margin-bottom: 0;
+}
+
+/* =================================
+            Footer
+================================= */
+
+#clearFix {
+    height: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #505050;
+    color: #fff;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+}
+
+footer a {
+    color: #FFA500;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #c82333;
+}
