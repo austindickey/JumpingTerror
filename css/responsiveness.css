@@ -1,0 +1,9 @@
+/* =================================
+        Mobile Responsiveness
+================================= */
+
+@media (max-width: 991px) {
+    .divider {display: none;}
+    .navbar-nav {text-align: center;}
+    .nav-item:last-child {margin-bottom: 25px;}
+}
