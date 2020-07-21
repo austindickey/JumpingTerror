@@ -70,6 +70,20 @@ h1 {
 }
 
 /* =================================
+            Home Page
+================================= */
+
+.instaPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singlePost {
+    margin: 0 5px;
+}
+
+/* =================================
             Footer
 ================================= */
 
