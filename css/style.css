@@ -7,6 +7,11 @@
 * 1. Body
 * 2. Headers
 * 3. NavBar
+* 4. Home
+* 5. About
+* 6. Highlights
+* 7. Contact
+* 8. Footer
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||            End Table of Contents               ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************/
@@ -25,9 +30,25 @@ body {
 
 h1 {
     text-align: center;
-    margin: 25px 0;
+    margin: 35px 0;
     color: #FFA500;
     font-family: 'Audiowide', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: 900;
+    border: 3px solid #505050;
+    border-bottom: 0px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: -35px;
+    margin-bottom: 40px;
+    color: #FFA500;
 }
 
 /* =================================
@@ -67,6 +88,41 @@ h1 {
 .divider:after {
     content: "|";
     color: #fff;
+}
+
+/* =================================
+            Home
+================================= */
+
+.widgets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.widgets div {
+    margin: 0 25px;
+}
+
+.days li {
+    width: 400px;
+    text-align: center;
+    font-size: 28px;
+    border: 3px solid #505050;
+    border-bottom: 0px;
+}
+
+.days li:last-child {
+    border: 3px solid #505050;
+}
+
+.days span {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.schedule ul li strong {
+    color: #FFA500;
 }
 
 /* =================================
