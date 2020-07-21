@@ -69,16 +69,13 @@ h1 {
     color: #fff;
 }
 
-/* Use later #505050 -- grey */
-/* Also add bootsrap container and grid to pages */
-
 /* =================================
             Footer
 ================================= */
 
 /* #clearFix {
     height: 50px;
-}
+} */
 
 footer {
     width: 100%;
@@ -99,5 +96,5 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: #c82333;
-} */
+    color: #44c823;
+}
