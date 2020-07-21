@@ -22,6 +22,7 @@
 
 body {
     font-family: 'Gruppo', sans-serif;
+    background-image: url(../img/bg.png);
 }
 
 /* =================================
@@ -30,7 +31,6 @@ body {
 
 h1 {
     text-align: center;
-    margin: 35px 0;
     color: #FFA500;
     font-family: 'Audiowide', sans-serif;
 }
@@ -42,13 +42,15 @@ h3 {
     font-weight: 900;
     border: 3px solid #505050;
     border-bottom: 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-image: url(../img/scheduleBG.png);
 }
 
 h4 {
     text-align: center;
-    margin-top: -35px;
-    margin-bottom: 40px;
     color: #FFA500;
+    margin-top: -10px;
 }
 
 /* =================================
@@ -94,6 +96,14 @@ h4 {
             Home
 ================================= */
 
+#titleBox {
+    margin: 50px 30%;
+    border: 6px solid #FFA500;
+    border-radius: 7px;
+    background-color: #505050;
+    padding: 10px 0;
+}
+
 .widgets {
     display: flex;
     flex-wrap: wrap;
@@ -110,10 +120,13 @@ h4 {
     font-size: 28px;
     border: 3px solid #505050;
     border-bottom: 0px;
+    background-image: url(../img/scheduleBG.png);
 }
 
 .days li:last-child {
     border: 3px solid #505050;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .days span {

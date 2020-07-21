@@ -10,13 +10,16 @@
 
 @media (max-width: 768px) {
     .days {margin-bottom: 30px;}
+    #titleBox {margin: 50px 20%;}
 }
 
 @media (max-width: 414px) {
     .days li {width: 100%; font-size: 24px; padding: 0 8px;}
     h3 {width: 100%;}
+    #titleBox {margin: 50px 0;}
 }
 
 @media (max-width: 375px) {
     .days li {width: 100%; font-size: 20px; padding: 0 8px;}
+    h1 {font-size: 36px;}
 }
