@@ -173,6 +173,35 @@ h4 {
 }
 
 /* =================================
+            Contact
+================================= */
+
+.contactVia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 30%;
+    border: 6px solid #FFA500;
+    border-radius: 7px;
+    background-color: #505050;
+    padding: 25px 0;
+}
+
+.contactSingle {
+    margin: 0 5%;
+    text-align: center;
+}
+
+.contactSingle a {
+    color: #FFA500;
+}
+
+.contactSingle a:hover {
+    color: #44c823;
+    text-decoration: none;
+}
+
+/* =================================
             Footer
 ================================= */
 
