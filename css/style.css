@@ -8,7 +8,7 @@
 * 2. Headers
 * 3. NavBar
 * 4. Home
-* 5. About
+* 5. About Me
 * 6. Highlights
 * 7. Contact
 * 8. Footer
@@ -136,6 +136,26 @@ h4 {
 
 .schedule ul li strong {
     color: #FFA500;
+}
+
+/* =================================
+            About Me
+================================= */
+
+.aboutMe {
+    border: 6px solid #FFA500;
+    border-radius: 7px;
+    padding: 25px;
+    font-size: 18px;
+    background-image: url(../img/scheduleBG.png);
+}
+
+.profilePic {
+    width: 400px;
+    float: left;
+    margin-right: 15px;
+    border: 6px solid #505050;
+    border-radius: 7px;
 }
 
 /* =================================
