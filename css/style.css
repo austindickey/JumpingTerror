@@ -158,6 +158,13 @@ h4 {
     border-radius: 7px;
 }
 
+.signature {
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: #505050;
+}
+
 /* =================================
             Highlights
 ================================= */
