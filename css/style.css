@@ -8,7 +8,7 @@
 * 2. Headers
 * 3. NavBar
 * 4. Home
-* 5. About Me
+* 5. About
 * 6. Highlights
 * 7. Contact
 * 8. Footer
@@ -23,6 +23,10 @@
 body {
     font-family: 'Gruppo', sans-serif;
     background-image: url(../img/bg.png);
+}
+
+.content {
+    min-height: calc(100vh - 170px - 85px);
 }
 
 /* =================================
@@ -139,7 +143,7 @@ h4 {
 }
 
 /* =================================
-            About Me
+            About
 ================================= */
 
 .aboutMe {
@@ -148,12 +152,15 @@ h4 {
     padding: 25px;
     font-size: 18px;
     background-image: url(../img/scheduleBG.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .profilePic {
-    width: 400px;
-    float: left;
-    margin-right: 15px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 25px;
     border: 6px solid #505050;
     border-radius: 7px;
 }
@@ -211,10 +218,6 @@ h4 {
 /* =================================
             Footer
 ================================= */
-
-/* #clearFix {
-    height: 50px;
-} */
 
 footer {
     width: 100%;
