@@ -187,6 +187,14 @@ h4 {
     margin: 0 5px;
 }
 
+blockquote a {
+    color: #FFA500;
+}
+
+blockquote a:hover {
+    color: #44c823;
+}
+
 /* =================================
             Live Stream
 ================================= */
